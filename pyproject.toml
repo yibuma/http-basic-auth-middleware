@@ -3,8 +3,11 @@ name = "fastapi-http-basic-auth-middleware"
 version = "0.1.0"  # x-release-please-version
 description = "FastAPI HTTP Basic Auth Middleware"
 authors = ["Yibu Ma"]
-license = "BSD 3-Clause"
+license = "BSD-3-Clause"
 readme = "README.md"
+packages = [
+    { include = "http_basic_auth" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
