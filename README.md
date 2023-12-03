@@ -1,4 +1,5 @@
 # http-basic-auth-middleware
+[![codecov](https://codecov.io/gh/yibuma/http-basic-auth-middleware/graph/badge.svg?token=sEZLVUoBUS)](https://codecov.io/gh/yibuma/http-basic-auth-middleware)  
 FastAPI HTTP Basic Auth Middleware
 
 By default, http basic auth authentication is added to all endpoints. If you only need to add http basic auth authentication to certain endpoints, you can use [FastAPI's built-in HTTP Basic Auth](https://fastapi.tiangolo.com/advanced/security/http-basic-auth/).
