@@ -23,6 +23,7 @@ HTTPBasicAuthMiddleware.setup(
     check_handler=lambda cred: cred.username == "Admin" and cred.password == "password",
     ignore_paths=["/healthz", "/metrics"],  // the path that you don't want to add http basic auth
 )
+```
 
 ### Parameters
 - `app`: FastAPI app
